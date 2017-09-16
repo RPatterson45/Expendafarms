@@ -1,0 +1,200 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: #ffe6b3;
+  padding-top: 70px;
+}
+
+.navbar .container-fluid {
+  padding: 20px 75px 20px 50px;
+  background-color: #0C430C;
+  border-bottom: 1px solid black;
+}
+
+.navbar-header {
+  color: #f2f2f2;
+  .navbar-brand {
+    color: #f2f2f2;
+  }
+  .navbar-brand:hover {
+    background-color: #0C430C;
+    color: #000000;
+  }
+}
+
+.navbar-default {
+  padding-left: 0;
+  .navbar-nav {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px !important;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    .dropdown {
+      color: #f2f2f2;
+    }
+    li a {
+      color: #f2f2f2;
+    }
+    li a:hover {
+      color: #1B981B !important;
+    }
+    li a:visited {
+      color: #f2f2f2;
+    }
+    .open .dropdown-toggle {
+      background-color: #000000;
+      color: #000000;
+    }
+    .open .dropdown-menu {
+      border-radius: 5px;
+      border: 1px solid black;
+    }
+    .open .dropdown-menu li a {
+      background-color: #ffffff;
+      color: #000000;
+      text-shadow: none;
+      font-family: 'Permanent Marker', cursive;
+    }
+    .open a:focus {
+      background-color: #000000;
+      color: #f2f2f2;
+      border-radius: 5px;
+    }
+  }
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform:translateX(-50%);
+  display: block;
+}
+
+#search-bar input:focus {
+  color: #333;
+}
+
+#search-bar input::-webkit-input-placeholder {
+  color: #333;
+}
+#search-bar input::-moz-placeholder {
+  color: #333;
+}
+#search-bar input:-ms-input-placeholder {
+  color: #333;
+}
+#search-bar input:-moz-placeholder {
+  color: #333;
+}
+
+#search-button:hover {
+  color: #f2f2f2;
+  background-color: #000000;
+}
+
+#sign-in {
+  margin-left: 25px;
+}
+
+#sign-in:hover {
+  color: #f2f2f2;
+  background-color: #000000;
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+/*----- Social Links -----*/
+.social-nav {
+    padding: 0;
+    list-style: none;
+    margin: -10px 0 0 -10px;
+}
+.social-nav li {
+    margin: 10px 0 0 10px;
+    list-style: none;
+}
+.social-nav a {
+    display: inline-block;
+    float: left;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 48px;
+    background: #000;
+    position: relative;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+.social-nav a {
+    overflow: hidden;
+    font-size: 26px;
+}
+.social-nav a:hover {
+    background: #fff;
+    text-shadow: 0px 0px #d4d4d4, 1px 1px #d4d4d4, 2px 2px #d4d4d4, 3px 3px #d4d4d4, 4px 4px #d4d4d4, 5px 5px #d4d4d4, 6px 6px #d4d4d4, 7px 7px #d4d4d4, 8px 8px #d4d4d4, 9px 9px #d4d4d4, 10px 10px #d4d4d4, 11px 11px #d4d4d4, 12px 12px #d4d4d4, 13px 13px #d4d4d4, 14px 14px #d4d4d4, 15px 15px #d4d4d4, 16px 16px #d4d4d4, 17px 17px #d4d4d4, 18px 18px #d4d4d4, 19px 19px #d4d4d4, 20px 20px #d4d4d4, 21px 21px #d4d4d4, 22px 22px #d4d4d4, 23px 23px #d4d4d4, 24px 24px #d4d4d4, 25px 25px #d4d4d4, 26px 26px #d4d4d4, 27px 27px #d4d4d4, 28px 28px #d4d4d4, 29px 29px #d4d4d4, 30px 30px #d4d4d4;
+}
+.social-nav .twitter {
+    background: #00ACED;
+    text-shadow: 0px 0px #0087ba, 1px 1px #0087ba, 2px 2px #0087ba, 3px 3px #0087ba, 4px 4px #0087ba, 5px 5px #0087ba, 6px 6px #0087ba, 7px 7px #0087ba, 8px 8px #0087ba, 9px 9px #0087ba, 10px 10px #0087ba, 11px 11px #0087ba, 12px 12px #0087ba, 13px 13px #0087ba, 14px 14px #0087ba, 15px 15px #0087ba, 16px 16px #0087ba, 17px 17px #0087ba, 18px 18px #0087ba, 19px 19px #0087ba, 20px 20px #0087ba, 21px 21px #0087ba, 22px 22px #0087ba, 23px 23px #0087ba, 24px 24px #0087ba, 25px 25px #0087ba, 26px 26px #0087ba, 27px 27px #0087ba, 28px 28px #0087ba, 29px 29px #0087ba, 30px 30px #0087ba;
+}
+.social-nav .twitter:hover {
+    color: #00ACED;
+    text-shadow: none;
+}
+.social-nav .facebook {
+    background: #3B579D;
+    text-shadow: 0px 0px #2d4278, 1px 1px #2d4278, 2px 2px #2d4278, 3px 3px #2d4278, 4px 4px #2d4278, 5px 5px #2d4278, 6px 6px #2d4278, 7px 7px #2d4278, 8px 8px #2d4278, 9px 9px #2d4278, 10px 10px #2d4278, 11px 11px #2d4278, 12px 12px #2d4278, 13px 13px #2d4278, 14px 14px #2d4278, 15px 15px #2d4278, 16px 16px #2d4278, 17px 17px #2d4278, 18px 18px #2d4278, 19px 19px #2d4278, 20px 20px #2d4278, 21px 21px #2d4278, 22px 22px #2d4278, 23px 23px #2d4278, 24px 24px #2d4278, 25px 25px #2d4278, 26px 26px #2d4278, 27px 27px #2d4278, 28px 28px #2d4278, 29px 29px #2d4278, 30px 30px #2d4278;
+}
+.social-nav .facebook:hover {
+    color: #3B579D;
+    text-shadow: none;
+}
+.social-nav .reddit-alien {
+    background: #CEE3F8;
+    text-shadow: 0px 0px #75A2CE, 1px 1px #75A2CE, 2px 2px #75A2CE, 3px 3px #75A2CE, 4px 4px #75A2CE, 5px 5px #75A2CE, 6px 6px #75A2CE, 7px 7px #75A2CE, 8px 8px #75A2CE, 9px 9px #75A2CE, 10px 10px #75A2CE, 11px 11px #75A2CE, 12px 12px #75A2CE, 13px 13px #75A2CE, 14px 14px #75A2CE, 15px 15px #75A2CE, 16px 16px #75A2CE, 17px 17px #75A2CE, 18px 18px #75A2CE, 19px 19px #75A2CE, 20px 20px #75A2CE, 21px 21px #75A2CE, 22px 22px #75A2CE, 23px 23px #75A2CE, 24px 24px #75A2CE, 25px 25px #75A2CE, 26px 26px #75A2CE, 27px 27px #75A2CE, 28px 28px #75A2CE, 29px 29px #75A2CE, 30px 30px #75A2CE;
+}
+.social-nav .reddit-alien:hover {
+    color: #CEE3F8;
+    background-color: #000000;
+    text-shadow: none;
+}
+.social-nav .instagram {
+    background: #d9317a;
+    text-shadow: 0px 0px #9C0245, 1px 1px #9C0245, 2px 2px #9C0245, 3px 3px #9C0245, 4px 4px #9C0245, 5px 5px #9C0245, 6px 6px #9C0245, 7px 7px #9C0245, 8px 8px #9C0245, 9px 9px #9C0245, 10px 10px #9C0245, 11px 11px #9C0245, 12px 12px #9C0245, 13px 13px #9C0245, 14px 14px #9C0245, 15px 15px #9C0245, 16px 16px #9C0245, 17px 17px #9C0245, 18px 18px #9C0245, 19px 19px #9C0245, 20px 20px #9C0245, 21px 21px #9C0245, 22px 22px #9C0245, 23px 23px #9C0245, 24px 24px #9C0245, 25px 25px #9C0245, 26px 26px #9C0245, 27px 27px #9C0245, 28px 28px #9C0245, 29px 29px #9C0245, 30px 30px #9C0245;
+}
+.social-nav .instagram:hover {
+    color: #d9317a;
+    text-shadow: none;
+}
+
+
+.icon-bar {
+    width: 48px;
+    float: right;
+    padding-top: 50px;
+    position: fixed-right;
+}
+
+.icon-bar a {
+    display: block;
+}
+
+
+
+h1 {
+  font-family: 'Frijole', cursive;
+  font-size: 60px;
+  text-align: center;
+}
+
+.footer {
+  height: 150px;
+  border-top: 2px solid black;
+}
