@@ -5,7 +5,16 @@
 body {
   background-color: #ffe6b3;
   padding-top: 70px;
+  margin: 20px 0 0 0;
 }
+
+h1 {
+  font-family: 'Frijole', cursive;
+  font-size: 60px;
+  text-align: center;
+}
+
+/* Navbar */
 
 .navbar .container-fluid {
   padding: 20px 75px 20px 50px;
@@ -26,6 +35,7 @@ body {
 
 .navbar-default {
   padding-left: 0;
+  margin-bottom: 0;
   .navbar-nav {
     font-family: 'Permanent Marker', cursive;
     font-size: 20px !important;
@@ -186,12 +196,21 @@ body {
     display: block;
 }
 
+/* YouTube video */
 
-
-h1 {
-  font-family: 'Frijole', cursive;
-  font-size: 60px;
-  text-align: center;
+.videoWrapper {
+  position: relative;
+  padding-bottom: 30%; /* 16:9 */
+  margin: 20px 0 20px 0;
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 50%;
+  height: 100%;
 }
 
 .footer {

@@ -52,10 +52,22 @@
   }
   .collapse.in{
     display:block !important;
+    border-top: 2px solid black;
+  }
+  .collapsing {
+    border-top: 2px solid black;
   }
   #nav-arrow {
     border: 2px solid black;
   }
+}
+
+#sign-in {
+  margin-left: 15px;
+}
+
+.videoWrapper {
+  margin-right: 50px;
 }
 
 @media (max-width: 768px) {
@@ -74,5 +86,17 @@
    h1 { 
       font-size: 6vw; 
    }
-
+   .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+  }
 }
