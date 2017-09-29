@@ -227,9 +227,7 @@ h1 {
   width: 100% !important;
 }
 
-/********************
-*****Slide effect
-**********************/
+/* Slide effect */
 
 .fade {
   opacity: 1;
@@ -261,13 +259,7 @@ h1 {
   -o-transition: opacity ease-in-out 1s;
   transition: opacity ease-in-out 1s;
 }
-
-
-
-
-
-
-/*---------- LEFT/RIGHT ROUND CONTROL ----------*/
+/* LEFT/RIGHT ROUND CONTROL */
 .control-round .carousel-control {
   top: 47%;
   opacity: 0;
@@ -309,11 +301,7 @@ h1 {
   right: 45%;
 }
 
-
-
-
-
-/*---------- INDICATORS CONTROL ----------*/
+/* INDICATORS CONTROL */
 .indicators-line > .carousel-indicators{
   right: 45%;
   bottom: 3%;
@@ -383,9 +371,7 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
-
-
-/*---------- SLIDE CAPTION ----------*/
+/* SLIDE CAPTION */
 .slide_style_left {
   text-align: left !important;
 }
@@ -480,15 +466,6 @@ h1 {
   transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
-
-
-
-
-
-/*------------------------------------------------------*/
-/* RESPONSIVE
-/*------------------------------------------------------*/
-
 @media (max-width: 991px) {
   .slide-text h1 {
       font-size: 40px;
@@ -501,8 +478,6 @@ h1 {
   }
 }
 
-
-/*---------- MEDIA 480px ----------*/
 @media  (max-width: 768px) {
   .slide-text {
       padding: 10px 50px;
@@ -568,4 +543,13 @@ h1 {
 .footer {
   height: 150px;
   border-top: 2px solid black;
+}
+
+#contact-form {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  #submit-button {
+    margin-bottom: 20px;
+  }
 }
