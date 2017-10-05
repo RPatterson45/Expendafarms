@@ -28,7 +28,9 @@
             <span class="sr-only">Toggle navigation</span>
             <%= image_tag "down-arrow.png" %>
           </button>
-          <a class="navbar-brand" href="/">Brand</a>
+          <%= link_to root_path, id: "brand" do %>
+            <%= image_tag "Expendafarms_logo.png" %>
+          <% end %>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
